@@ -17,9 +17,9 @@ This repository is updated as stories are completed, not assembled at the end.
 
 ## Structure
 
-- `setup/` — Offensive Setup stories (Kali VM, Juice Shop, Burp Suite)
-- `offensive/` — web application security stories against OWASP Juice Shop
-- `defensive/` — network forensics and malware investigation stories
+- `setup/` - Offensive Setup stories (Kali VM, Juice Shop, Burp Suite)
+- `offensive/` - web application security stories against OWASP Juice Shop
+- `defensive/` - network forensics and malware investigation stories
 
 ## Setup
 
