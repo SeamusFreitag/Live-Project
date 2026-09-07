@@ -12,5 +12,8 @@ sudo docker run --rm -p 3000:3000 bkimminich/juice-shop
 
 Confirmed it loads at `localhost:3000`. No real problems once the host networking issue from Setup 1 was resolved. `--rm` means the container is removed when it stops, restarting later just means rerunning the same `docker run` command.
 
+Juice Shop container running in terminal:
 ![Juice Shop container running in terminal](./media/day0-0.01-setup-docker.png)
+
+Juice Shop loaded in browser:
 ![Juice Shop loaded in browser](./media/day0-0.02-setup-openJuiceShop.png)

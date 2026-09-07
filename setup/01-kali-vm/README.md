@@ -6,4 +6,5 @@ Before the VM even existed, the host had no internet despite WiFi showing connec
 
 Took a clean baseline snapshot after install, before any further configuration.
 
+Kali Linux running in the VM:
 ![Kali Linux running in the VM](./media/day0-0.00-setup-kaliVM.png)
