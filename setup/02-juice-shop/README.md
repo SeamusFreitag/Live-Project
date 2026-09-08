@@ -2,7 +2,7 @@
 
 Installed Docker on the Kali VM and deployed OWASP Juice Shop as a local container, the vulnerable application used for the Offensive Security stories.
 
-​```bash
+​```
 sudo apt update
 sudo apt install -y docker.io
 sudo systemctl enable docker --now
