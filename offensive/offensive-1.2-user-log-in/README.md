@@ -12,7 +12,7 @@ bender@juice-sh.op'--
 ```
 This closes the email string right after the target address and comments out the password check entirely, so the WHERE clause resolves to `email = 'bender@juice-sh.op'` with no password condition. The app logged in as Bender and the "Login Bender" challenge flag fired.
 
-Two chained weaknesses made this trivial: admin views exposed user PII (email addresses in reviews) that shouldn't have been visible even to admins, and the login query was still concatenating input into SQL. Fixing either one alone would have made this attack noticeably harder, fixing both closes it entirely.
+Two chained weaknesses made this trivial: views exposed user PII (email addresses in reviews) that shouldn't have been visible even to admins, and the login query was still concatenating input into SQL. Fixing either one alone would have made this attack noticeably harder.
 
 Admin session from 1.1 used for enumeration:
 
