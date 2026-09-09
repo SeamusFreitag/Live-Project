@@ -16,10 +16,13 @@ This closes the email string with `'`, forces the WHERE clause to always evaluat
 The fix is parameterized queries. Input should be passed to the database as a bound parameter, never concatenated into the query string. Input validation on the email field and suppressing detailed error output are secondary hardening steps.
 
 Injection probe with single quote returning `[object Object]`:
+
 ![Injection probe returning error](./media/offensive1.1-injection-probe.png)
 
 Payload entered in email field:
+
 ![Payload in email field](./media/offensive1.1-injection-payload.png)
 
 Login Admin challenge flag:
+
 ![Login Admin flag](./media/offensive1.1-admin-flag.png)
