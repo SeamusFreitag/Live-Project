@@ -6,7 +6,7 @@ Bypassed authentication on the OWASP Juice Shop login form using SQL injection t
 
 Probed the field first with a single quote (`'`) to confirm the input broke out of the string literal. The app returned a generic `[object Object]` error rather than a verbose SQL error, so error output is partially suppressed on the client side, but the fact that a single character crashed the login was enough to confirm the injection point.
 
-Payload used in the email field:
+## Payload used in the email field:
 ```
 ' OR 1=1--
 ```
