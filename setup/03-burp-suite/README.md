@@ -10,12 +10,12 @@ Burp works as a man-in-the-middle proxy by design (`Browser → Burp → Web Ser
 
 FoxyProxy configured to point at Burp:
 
-![FoxyProxy configured to point at Burp](./media/setup-burpProxySetup.png)
+![FoxyProxy configured to point at Burp](./media/setup-burp-proxy-setup.png)
 
 Burp CA certificate downloaded:
 
-![Burp CA certificate downloaded](./media/setup-burpCert.png)
+![Burp CA certificate downloaded](./media/setup-burp-cert.png)
 
 Intercept paused on a live request:
 
-![Intercept paused on a live request](./media/setup-burpInterceptConfirm.png)
+![Intercept paused on a live request](./media/setup-burp-intercept-confirm.png)

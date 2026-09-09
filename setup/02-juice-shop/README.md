@@ -18,4 +18,4 @@ Juice Shop container running in terminal:
 
 Juice Shop loaded in browser:
 
-![Juice Shop loaded in browser](./media/setup-openJuiceShop.png)
+![Juice Shop loaded in browser](./media/setup-open-juice-shop.png)
