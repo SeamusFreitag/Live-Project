@@ -29,7 +29,9 @@ This repository is updated as stories are completed, not assembled at the end.
 
 ## Offensive Security
 
-_(added as each story is completed)_
+- [Offensive #1.1: Admin Log In](./offensive/offensive-1.1-admin-log-in/) - SQL injection auth bypass
+- [Offensive #1.2: User Log In](./offensive/offensive-1.2-user-log-in/) - Targeted SQLi after user enumeration
+- [Offensive #2: Reset Admin Password](./offensive/offensive-2-reset-admin-password/) - Burp Intruder brute force
 
 ## Defensive Security
 
