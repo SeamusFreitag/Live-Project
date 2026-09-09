@@ -6,7 +6,7 @@ The login form is injectable the same way it was in 1.1, but this story requires
 
 With admin access from 1.1 still active, browsed the shop and found that product reviews expose the reviewer's email address in plaintext. Banana Juice's review was left by `bender@juice-sh.op`, giving both confirmation of the shared `juice-sh.op` email domain and the exact target account.
 
-Payload used in the email field:
+## Payload used in the email field:
 ```
 bender@juice-sh.op'--
 ```
