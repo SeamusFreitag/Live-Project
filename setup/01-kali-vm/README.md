@@ -8,4 +8,4 @@ Took a clean baseline snapshot after install, before any further configuration.
 
 Kali Linux running in the VM:
 
-![Kali Linux running in the VM](./media/setup-kaliVM.png)
+![Kali Linux running in the VM](./media/setup-kali-vm.png)
