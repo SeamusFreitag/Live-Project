@@ -9,10 +9,10 @@ Verified the full chain: HTTPS sites load without certificate warnings, and turn
 Burp works as a man-in-the-middle proxy by design (`Browser → Burp → Web Server`), which is why the browser has to explicitly trust its certificate. Burp Professional isn't required for this story, some tutorial features are Pro-only and were just noted rather than reproduced.
 
 FoxyProxy configured to point at Burp:
-![FoxyProxy configured to point at Burp](./media/day0-0.03-setup-burpProxySetup.png)
+![FoxyProxy configured to point at Burp](./media/setup-burpProxySetup.png)
 
 Burp CA certificate downloaded:
-![Burp CA certificate downloaded](./media/day0-0.04-setup-burpCert.png)
+![Burp CA certificate downloaded](./media/setup-burpCert.png)
 
 Intercept paused on a live request:
-![Intercept paused on a live request](./media/day0-0.05-setup-burpInterceptConfirm.png)
+![Intercept paused on a live request](./media/setup-burpInterceptConfirm.png)

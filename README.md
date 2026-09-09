@@ -23,9 +23,9 @@ This repository is updated as stories are completed, not assembled at the end.
 
 ## Setup
 
-- [Offensive Setup#1: Install Kali Linux VM](./setup/01-kali-vm/)
-- [Offensive Setup#2: Create Juice Shop App](./setup/02-juice-shop/)
-- [Offensive Setup#3: Intro - Burp Suite](./setup/03-burp-suite/)
+- [Offensive Setup #1: Install Kali Linux VM](./setup/01-kali-vm/)
+- [Offensive Setup #2: Create Juice Shop App](./setup/02-juice-shop/)
+- [Offensive Setup #3: Intro - Burp Suite](./setup/03-burp-suite/)
 
 ## Offensive Security
 
