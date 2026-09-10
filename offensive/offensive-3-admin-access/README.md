@@ -18,7 +18,7 @@ Full modified body:
 
 Forwarded the request. The server accepted the injected field, created the new user, and stored `role: admin` on the record. The "Admin Registration" challenge flag fired.
 
-This is a mass assignment vulnerability (OWASP calls it Broken Object Property Level Authorization). The backend blindly persists whatever fields the client sends, so any client-side restriction on which fields exist is irrelevant. Remediation: server-side allowlist of writable fields on user creation, assign role/privilege fields server-side only based on server-controlled logic, never trust the client to set its own privilege level.
+This is a mass assignment vulnerability. The backend blindly persists whatever fields the client sends, so any client-side restriction on which fields exist is irrelevant. Remediation: server-side allowlist of writable fields on user creation, assign role/privilege fields server-side only based on server-controlled logic, never trust the client to set its own privilege level.
 
 User registration form on the frontend showing only expected fields:
 
