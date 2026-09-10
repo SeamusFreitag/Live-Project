@@ -32,6 +32,8 @@ This repository is updated as stories are completed, not assembled at the end.
 - [Offensive #1.1: Admin Log In](./offensive/offensive-1.1-admin-log-in/) - SQL injection auth bypass
 - [Offensive #1.2: User Log In](./offensive/offensive-1.2-user-log-in/) - Targeted SQLi after user enumeration
 - [Offensive #2: Reset Admin Password](./offensive/offensive-2-reset-admin-password/) - Burp Intruder brute force
+- [Offensive #3: Admin Access](./offensive/offensive-3-admin-access/) - Mass assignment on user registration
+- [Offensive #4: Admin Page](./offensive/offensive-4-admin-page/) - Client-side route discovery + IDOR on baskets + admin panel abuse
 
 ## Defensive Security
 
