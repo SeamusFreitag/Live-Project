@@ -37,6 +37,7 @@ This repository is updated as stories are completed, not assembled at the end.
 - [Offensive #5: CAPTCHA Exploit](./offensive/offensive-5-captcha-exploit/) - Reusable CAPTCHA + no rate limiting, Burp Intruder flood
 - [Offensive #6.1: Access Secured Documents](./offensive/offensive-6.1-access-secured-documents/) - Exposed /ftp/ directory, confidential file access
 - [Offensive #6.2: Download Secured Documents](./offensive/offensive-6.2-download-secured-documents/) - Poison null byte extension-filter bypass
+- [Offensive #7: HTTP Requests](./offensive/offensive7-http-requests/) - Request tampering: basket IDOR + zero-star feedback via improper input validation
 
 ## Defensive Security
 
