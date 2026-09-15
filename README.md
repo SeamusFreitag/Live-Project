@@ -41,4 +41,4 @@ This repository is updated as stories are completed, not assembled at the end.
 
 ## Defensive
 
-- [Wireshark Intro](./defensive/00-wireshark-intro/) - Okay-Boomer pcap analysis: host/OS fingerprinting, PE file carving, Trickbot confirmed via VirusTotal
+- [Wireshark Intro](./defensive/0-wireshark-intro/) - Okay-Boomer pcap analysis: host/OS fingerprinting, PE file carving, Trickbot confirmed via VirusTotal
