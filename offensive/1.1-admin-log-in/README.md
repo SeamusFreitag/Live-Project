@@ -9,7 +9,7 @@ Probed the field first with a single quote (`'`) to confirm the input broke out 
 ' OR 1=1--
 ```
 
-This closes the email string with `'`, forces the WHERE clause to always evaluate true with `OR 1=1`, and comments out the rest of the query (including the password check) with `--`. The app returned the first matching user, which is the administrator, and the "Login Admin" challenge flag fired.
+This closes the email string with `'`, forces the WHERE clause to always evaluate true with `OR 1=1`, and comments out the rest of the query (including the password check) with `--`. The app returned the first row in the users table, which is the administrator account because it was seeded first, and the "Login Admin" challenge flag fired.
 
 The fix is parameterized queries. Input should be passed to the database as a bound parameter, never concatenated into the query string. Input validation on the email field and suppressing detailed error output are secondary hardening steps.
 
