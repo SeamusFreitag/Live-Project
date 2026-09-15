@@ -23,9 +23,9 @@ This repository is updated as stories are completed, not assembled at the end.
 
 ## Setup
 
-- [Install Kali Linux VM](./setup/1-kali-vm/)
-- [Create Juice Shop App](./setup/2-juice-shop/)
-- [Intro - Burp Suite](./setup/3-burp-suite/)
+- [Install Kali Linux VM](./setup/1-kali-vm/) - Kali build on KVM/virt-manager and a clean-baseline snapshot
+- [Create Juice Shop App](./setup/2-juice-shop/) - OWASP Juice Shop deployed and run via Docker
+- [Intro - Burp Suite](./setup/3-burp-suite/) - intercepting proxy configured, traffic capture and request modification
 
 ## Offensive
 
