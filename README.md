@@ -42,3 +42,4 @@ This repository is updated as stories are completed, not assembled at the end.
 ## Defensive
 
 - [Wireshark Intro](./defensive/00-wireshark-intro/) - Okay-Boomer pcap analysis: host/OS fingerprinting, PE file carving, Trickbot confirmed via VirusTotal
+- [Malware Traffic](./defensive/01-malware-traffic/) - Exploit kit chain reconstruction: Flash exploit + hidden iframe, executable disguised as text/html, ransomware confirmed via VirusTotal
