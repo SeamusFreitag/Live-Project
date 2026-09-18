@@ -45,3 +45,4 @@ This repository is updated as stories are completed, not assembled at the end.
 - [Malware Traffic](./defensive/01-malware-traffic/) - Exploit kit chain reconstruction: Flash exploit + hidden iframe, executable disguised as text/html, ransomware confirmed via VirusTotal
 - [Malware Analysis](./defensive/02-malware-analysis/) - Multi-family infection: Word doc embedded in HTML, Hancitor check-in, Ficker Stealer download, Cobalt Strike beaconing
 - [PowerShell Script Analysis](./defensive/03-powershell-script-analysis/) - Static analysis of a PowerShell keylogger: user32.dll API imports, hardcoded SMTP exfiltration, log deleted after send
+- [Linux Server Logs](./defensive/04-linux-server-logs/) - Bash history reconstruction: `.phtml` webshell slips a `.php`-only upload filter, then a SUID-Python privilege escalation attempt
