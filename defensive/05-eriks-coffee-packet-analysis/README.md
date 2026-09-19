@@ -99,7 +99,7 @@ VirusTotal flagged the file 34 of 63 with the popular threat label `trojan.qakbo
 
 The infection is visible at several points a defender already monitors:
 
-- A workstation fetching a zip from a newly-seen free-TLD domain is anomalous egress. Freenom TLDs (.ga, .tk, .ml, .cf, .gq) are heavily abused for malware delivery and are reasonable to block or alert on at the DNS or proxy layer.
+- A workstation fetching a zip from a newly seen free-TLD domain is anomalous egress. Freenom TLDs (.ga, .tk, .ml, .cf, .gq) are heavily abused for malware delivery and are reasonable to block or alert on at the DNS or proxy layer.
 - The `uid=` beacons to spool/8888.png are Qakbot check-ins. Repetitive GETs to multiple external hosts carrying the same encoded parameter are a detectable beacon pattern in proxy logs or an IDS rule.
 - Kerberos and NetBIOS traffic scope an incident quickly. The account and host behind an IP are in the auth traffic, which is what tells you which asset and which user to isolate first.
 

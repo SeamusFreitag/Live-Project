@@ -48,7 +48,7 @@ Windows executables (PE files) carry a fixed DOS stub string, "This program cann
 ip contains "This program"
 ```
 
-The hit shows host 10.11.11.203 pulling a PE from 188.95.248.71.
+The hit shows host 10.11.11.203 pulling a PE from 188.95.248[.]71.
 
 ![PE file located in HTTP traffic via byte-string search](./media/wireshark-pe-in-http.png)
 
@@ -65,7 +65,7 @@ Connection: Keep-Alive
 
 ## Carving the file
 
-File > Export Objects > HTTP lists every object transferred over HTTP and lets you save them out of the capture. Filtering the object list to `acjab`, one object stands out: served from acjabogados.com as `image/tiff`, 389 kB, named `40group.tiff`. The content type is a lie. The byte search already showed the file is a PE executable, not an image.
+File > Export Objects > HTTP lists every object transferred over HTTP and lets you save them out of the capture. Filtering the object list to `acjab`, one object stands out: served from acjabogados[.]com as `image/tiff`, 389 kB, named `40group.tiff`. The content type is a lie. The byte search already showed the file is a PE executable, not an image.
 
 ![Exporting the disguised executable from the capture](./media/wireshark-export-object.png)
 
@@ -75,16 +75,16 @@ Submitting the carved file to VirusTotal returns broad detection across vendors,
 
 ![VirusTotal confirming the file as Trickbot](./media/wireshark-virustotal.png)
 
-## Indicators of compromise
+## Indicators of Compromise
 
 ```
 Victim host (downloaded PE):  10.11.11.203
-Malicious server:             188.95.248.71
-Domain:                       acjabogados.com
+Malicious server:             188.95.248[.]71
+Domain:                       acjabogados[.]com
 File:                         40group.tiff  (served as image/tiff, actually a Windows PE)
 Family:                       Trickbot
 ```
 
-## Takeaway
+## Takeaways
 
 This is the SOC/DFIR triage loop in miniature: enumerate the hosts, isolate suspicious protocols, follow the streams, carve the artifact, and validate it against an external source. Every technique here (User-Agent and MAC fingerprinting, byte-string hunting for PE headers, HTTP object export, and VirusTotal confirmation) carries directly into the graded defensive stories, and into real incident response, where the same steps identify the infected host, extract IOCs, and feed blocking and threat hunting.

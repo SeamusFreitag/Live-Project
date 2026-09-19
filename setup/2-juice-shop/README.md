@@ -4,7 +4,7 @@ Installed Docker on the Kali VM and deployed OWASP Juice Shop as a local contain
 
 ```
 sudo apt update
-sudo apt intall -y docker.io
+sudo apt install -y docker.io
 sudo systemctl enable docker --now
 sudo docker pull bkimminich/juice-shop
 sudo docker run --rm -p 3000:3000 bkimminich/juice-shop
