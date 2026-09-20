@@ -6,7 +6,7 @@ Analysis was done inside an isolated VM on KVM. The network adapter was removed 
 
 ## First Boot
 
-The image boots straight to a desktop with a window already open.
+The image boots into a system already infected. A window appears with the image of Jigsaw and the ransom note emerges.
 
 ![Ransom note window](./media/defensive07-ransom-note.png)
 
