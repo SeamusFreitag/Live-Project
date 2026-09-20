@@ -14,7 +14,7 @@ The image boots into a system already infected. A window appears with the image 
 
 The message claims all photos, videos and documents have been encrypted and asks for 150 USD in Bitcoin within 24 hours, to the address `15fbyNgDnqYQR5vSHJ8PTAEJbKy4dwNBCZ`. Below the text a timer counts down, and under it a line states that one file will be deleted when it expires, with the number increasing each cycle. After 72 hours everything remaining is destroyed.
 
-The timer is a live thread in the running process rather than a static image, and the desktop wallpaper has been replaced. The countdown is a pressure mechanism aimed at the user, designed to force payment before anyone looks closely at the system.
+The timer is a live thread in the running process rather than a static image. The countdown is a pressure mechanism aimed at the user, designed to force payment before anyone looks closely at the system.
 
 ## Locating the Process
 
